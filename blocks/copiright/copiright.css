@@ -1,0 +1,16 @@
+.copiright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  text-align: right;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 320px) {
+  .copiright {
+    line-height: 100%;
+    margin-top: 16px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+}

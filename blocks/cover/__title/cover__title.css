@@ -1,0 +1,30 @@
+.cover__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  margin-bottom: 0;
+  white-space: pre-line;
+  padding-top: 245px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 109%;
+    padding: 0;
+    margin: 33px auto 0;
+  }
+}

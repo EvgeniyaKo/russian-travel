@@ -1,0 +1,24 @@
+.places__website {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  align-self: end;
+  flex-direction: column;
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 240%;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    line-height: 203%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places__website {
+    padding-left: 1rem;
+    margin: 0;
+  }
+}

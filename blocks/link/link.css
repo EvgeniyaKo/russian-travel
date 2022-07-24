@@ -1,0 +1,11 @@
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link:pointer {
+    cursor: pointer;
+}
+.link:hover {
+    cursor: url(../../Cursor/Imported\ Layers\ Copy\ 4.png);
+    opacity: 0.8;
+}
