@@ -1,24 +1,24 @@
-.places__text_second {
+.place__text_second {
   grid-column: 2;
   grid-row: 2;
   align-self: flex-end;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.places__text_second:nth-child(2) {
+.place__text_second:nth-child(2) {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  .places__text_second {
+  .place__text_second {
     margin-top: 23px;
   }
-  .places__text_second:nth-child(2) {
+  .place__text_second:nth-child(2) {
     margin-top: 23px;
   }
 }
 @media screen and (max-width: 320px) {
-  .places__text_second {
+  .place__text_second {
     margin-left: 0;
     margin-top: 23px;
   }
