@@ -2,8 +2,25 @@
   display: grid;
   row-gap: 80px;
 }
+@media screen and (max-width: 1024px){
+  .places{
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
 @media screen and (max-width: 768px) {
   .places {
+    row-gap: 72px;
+    margin-right: 26px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places{
+    margin: 0;
+    width: 100%;
     row-gap: 50px;
   }
+ 
 }

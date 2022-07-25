@@ -6,6 +6,11 @@
   text-align: right;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 768px){
+  .copiright{
+    margin-right: 30px;
+  }
+}
 @media screen and (max-width: 320px) {
   .copiright {
     line-height: 100%;
