@@ -1,22 +1,22 @@
-.cover {
+.cover__link {
   display: flex;
-  background-image: url("../../Images/__background.jpg");
+  background-image: url("../../../images/__background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 1184px;
   min-height: 740px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 92px;
+  padding-bottom: 76px;
   flex-direction: column;
   align-content: center;
   box-sizing: border-box;
   z-index: 0;
   position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
-
-.cover::before {
+.cover__link::before {
   content: "";
   position: absolute;
   left: 0;
@@ -28,31 +28,29 @@
   z-index: -1;
   transition: opacity 0.3s ease;
 }
-.cover:hover::before {
+.cover__link:hover:before {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
-    max-width: 100%;
-    background-size: 100%;
-    background-position: center;
-    margin-left: 0;
-    margin-right: 0;
+  .cover__link {
     max-height: 640px;
+    padding-bottom: 76px;
+    max-width: 1024px;
+    background-size: contain;
   }
 }
+
 @media screen and (max-width: 768px) {
-  .cover {
+  .cover__link {
     max-width: 100%;
     min-height: 480px;
-    margin-top: 86px;
   }
 }
 @media screen and (max-width: 320px) {
-  .cover {
+  .cover__link {
     max-width: 320px;
     min-height: 200px;
-    margin-top: 66px;
+    padding-bottom: 36px;
   }
 }

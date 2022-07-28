@@ -1,7 +1,13 @@
 .lead__photo {
-  max-width: 984px;
+  max-width: 77vw;
   margin: 0;
   object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .lead__photo{
+  max-width: 91vw;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .lead__photo {

@@ -1,21 +1,21 @@
-.copiright {
+.footer__copyright {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 114%;
   text-align: right;
-  margin-bottom: 16px;
+  margin: 0;
 }
-@media screen and (max-width: 768px){
-  .copiright{
-    margin-right: 30px;
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    padding-right: 30px;
   }
 }
 @media screen and (max-width: 320px) {
-  .copiright {
+  .footer__copyright {
     line-height: 100%;
     margin-top: 16px;
     text-align: left;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }

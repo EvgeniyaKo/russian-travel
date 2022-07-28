@@ -1,11 +1,14 @@
 .places {
   display: grid;
   row-gap: 80px;
+  padding-bottom: 87px;
+  
 }
-@media screen and (max-width: 1024px){
-  .places{
+@media screen and (max-width: 1024px) {
+  .places {
     margin-right: 48px;
     margin-left: 48px;
+    padding-bottom: 39px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -13,14 +16,14 @@
     row-gap: 72px;
     margin-right: 26px;
     margin-left: 0;
+    padding-bottom: 89px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .places{
+@media screen and (max-width: 320px) {
+  .places {
     margin: 0;
     width: 100%;
     row-gap: 50px;
   }
- 
 }
