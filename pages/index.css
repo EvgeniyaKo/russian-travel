@@ -21,8 +21,8 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/list-item/list-item.css);
-@import url(../blocks/list-item/_accent/list-item_accent.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_accent/intro__list-item_accent.css);
 
 @import url(../blocks/text/text.css);
 @import url(../blocks/place/__paragraf/place__paragraf.css);
