@@ -2,11 +2,10 @@
   display: flex;
   background-image: url("../../../images/__background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   max-width: 1184px;
-  min-height: 740px;
-  padding-bottom: 76px;
+  min-height: 63vh;
   flex-direction: column;
   align-content: center;
   box-sizing: border-box;
@@ -34,23 +33,24 @@
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    max-height: 640px;
-    padding-bottom: 76px;
     max-width: 1024px;
+    width: 100%;
+    min-height: 62vh;
     background-size: contain;
-  }
 }
+  }
+
 
 @media screen and (max-width: 768px) {
   .cover__link {
     max-width: 100%;
-    min-height: 480px;
+    min-height: 44vh;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-    min-height: 200px;
-    padding-bottom: 36px;
+    min-height: 17vh;
+
   }
 }
