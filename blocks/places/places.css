@@ -8,7 +8,7 @@
   .places {
     margin-right: 48px;
     margin-left: 48px;
-    padding-bottom: 39px;
+    padding-bottom: 90px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -16,10 +16,16 @@
     row-gap: 72px;
     margin-right: 26px;
     margin-left: 0;
-    padding-bottom: 67px;
+    padding-bottom: 90px;
   }
 }
-
+@media screen and (max-width: 640px) {
+  .places{
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 320px) {
   .places {
     margin: 0;

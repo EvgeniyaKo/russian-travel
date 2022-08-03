@@ -5,6 +5,12 @@
   padding-left: 0;
   margin: 0;
 }
+@media screen and (max-width: 640px) {
+  .footer__list {
+    grid-template-columns: min-content;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__list {
     grid-template-columns: min-content;
