@@ -9,9 +9,9 @@
   max-width: 560px;
   padding-bottom: 32px;
 }
-@media screen and (max-width: 786px){
-  .cover__title{
-  font-size: 9.5vw;
+@media screen and (max-width: 786px) {
+  .cover__title {
+    font-size: 9.5vw;
   }
 }
 @media screen and (max-width: 320px) {
@@ -19,6 +19,6 @@
     font-size: 2rem;
     line-height: 109%;
     padding: 0;
-   
+    white-space: pre-line;
   }
 }

@@ -6,7 +6,6 @@
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   margin: 0px auto;
   column-gap: 40px;
-  
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,14 +20,14 @@
     max-width: 94vw;
     margin-left: 24px;
     column-gap: 28px;
+
   }
 }
 @media screen and (max-width: 640px) {
-  .place{
+  .place {
     grid-template-columns: auto;
     margin: 0 auto;
   }
-  
 }
 @media screen and (max-width: 320px) {
   .place {
