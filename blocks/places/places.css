@@ -21,14 +21,18 @@
 @media screen and (max-width: 640px) {
   .places {
     margin: 0 auto;
-    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }
+
 @media screen and (max-width: 320px) {
   .places {
     margin: 0;
     width: 100%;
     row-gap: 50px;
     padding-bottom: 62px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
