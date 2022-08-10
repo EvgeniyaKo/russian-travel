@@ -34,13 +34,7 @@
   .cover__link {
     max-width: 1024px;
     width: 100%;
-<<<<<<< HEAD
-    height: 62vh;
-    background-size: contain;
     min-height: 640px;
-=======
-    max-height: 640px;
->>>>>>> f03d426248e16a56770e9bd3187fde8d968be580
 }
   }
 
@@ -51,9 +45,6 @@
 <<<<<<< HEAD
     height: 44vh;
     min-height: 480px;
-=======
-    max-height: 480px;
->>>>>>> f03d426248e16a56770e9bd3187fde8d968be580
   }
 }
 @media screen and (max-width: 320px) {
