@@ -42,20 +42,12 @@
 @media screen and (max-width: 768px) {
   .cover__link {
     max-width: 100%;
-<<<<<<< HEAD
-    height: 44vh;
     min-height: 480px;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-<<<<<<< HEAD
-    height: 17vh;
     min-height: 200px;
-=======
-    max-height: 200px;
->>>>>>> f03d426248e16a56770e9bd3187fde8d968be580
-
   }
 }
