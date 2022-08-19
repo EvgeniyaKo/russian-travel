@@ -5,16 +5,11 @@
   flex-direction: column;
   display: flex;
   font-size: 12px;
-  line-height: 240%;
+  line-height: 46px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-  .place__website {
-    line-height: 232%;
-  }
-}
 @media screen and (max-width: 320px) {
   .place__website {
     padding-left: 1rem;
