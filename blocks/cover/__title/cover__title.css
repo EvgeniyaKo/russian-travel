@@ -11,7 +11,12 @@
 }
 @media screen and (max-width: 786px) {
   .cover__title {
-    font-size: 8vw;
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .cover__title {
+    font-size: 13vw;
   }
 }
 @media screen and (max-width: 320px) {
